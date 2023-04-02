@@ -7,7 +7,7 @@ This project aims at downloading every recipe from [Giallo Zafferano](https://ww
 To use this project you'll need [Python3](https://www.python.org/) and [Pip](https://pypi.org/project/pip/) installed.
 
 1. Clone this repo in a folder of your choice.
-2. Install the necessary packages using ` pip install ``-``r requirements.txt `.
+2. Install the necessary packages using ` pip install -r requirements.txt `.
 3. Run `runme.py` using `py runme.py`. The time needed to download all the recipes can vary. In my case it took ~4 hours.
 
 Additionally you can:
@@ -23,4 +23,4 @@ To contribute just clone this repo and once you're done open a Pull Request.
 
 Right now it would be very good to improve the download speed (maybe using multi threading?) and create a list of all the ingredients.
 
-The problem with the second objective is that a certain ingredient (e.g._zucchina_) can be found in multiple forms and may be misspelled (e.g. _Zuchina_).
+The problem with the second objective is that a certain ingredient (e.g. _zucchina_) can be found in multiple forms and may be misspelled (e.g. _Zuchina_).
